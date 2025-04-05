@@ -1,11 +1,11 @@
 - name: Setup systemD service file
   ansible.builtin.template:
-    src: "{{ appl }}.service"
-    dest: /etc/systemd/system/{{ appl }}.service
+    src: "{{ app_name }}.service"
+    dest: /etc/systemd/system/{{ app_name }}.service
 
 - name: Enable and start application with daemon
   ansible.builtin.systemd_service:
-    name: "{{ appl }}"
+    name: "{{ app_name }}"
     daemon_reload: true
     enabled: true
     state: restarted
