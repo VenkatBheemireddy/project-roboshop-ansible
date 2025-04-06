@@ -23,7 +23,7 @@
    * make app_name=frontend
 6. After successful completion of all the above steps, open the browser and run "http://<public-ip-address>"
 7. You will get the roboshop home page.
-NOTE: If you don't see categories on the project home page then re-run "catalogue" component.
+NOTE: If you don't see categories on the project home page then re-run "catalogue" component (i.e., make app_name=mongodb).
 
 
-make app_name=mongodb
+
