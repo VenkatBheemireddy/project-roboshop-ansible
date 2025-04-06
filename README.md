@@ -2,8 +2,11 @@
 (project-roboshop-ansible)**
 
 **Databases:** mongodb, mysql, rabbitmq, redis
+
 **Servers:** catalogue, user, cart, shipping, payment
+
 **UI (ProxyServer):** frontend
+
 
 **Project Running Steps:**
 1. Create VMs for all the above Databases, Servers and UI with the same name.
